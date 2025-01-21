@@ -1,0 +1,21 @@
+dataset: davis
+split mode: S1
+cuda id: 1
+skip: True
+edge ratio: 0.05
+sim_d: 5
+sim_t: 10
+mode:train_test
+model params: 1094228
+create test dataloader ...
+create graphs_dataloader ...
+effective drugs: 68
+effective protein: 442
+start infering ...
+Make prediction for 5010 samples...
+MSE:  0.1549582277706854
+CI:  0.9150952310866809
+rm2:  0.7896736340538951
+PCC:  0.8985853788909668
+AUPR:  0.7686580718316707
+running time: 39.5396785736084s

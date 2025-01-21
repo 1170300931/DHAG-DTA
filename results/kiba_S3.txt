@@ -1,0 +1,21 @@
+dataset: kiba
+split mode: S3
+cuda id: 1
+skip: True
+edge ratio: 0.0115
+sim_d: 6
+sim_t: 3
+mode:train_test
+model params: 1094228
+create test dataloader ...
+create graphs_dataloader ...
+effective drugs: 2111
+effective protein: 228
+start infering ...
+Make prediction for 18085 samples...
+MSE:  0.2739366818132876
+CI:  0.7678149622220135
+rm2:  0.5725966225994499
+PCC:  0.7626998085011731
+AUPR:  0.6964761521425337
+running time: 51.69326066970825s
