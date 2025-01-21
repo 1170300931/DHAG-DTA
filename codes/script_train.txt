@@ -1,0 +1,2 @@
+python codes/train.py --dataset davis --split_mode S1 --cuda_id 1 --num_epochs 8000 --batch_size 1024 --ratio 0.05 --refine_epoch 2000,4000
+python codes/train.py --dataset kiba --split_mode S1 --cuda_id 1 --num_epochs 12000 --batch_size 4096 --ratio 0.0115 --refine_epoch 1700
