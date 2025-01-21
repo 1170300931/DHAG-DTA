@@ -40,7 +40,7 @@ def main():
     shutil.copyfile('./codes/data_process.py', log_path + '/data_process.py')
     os.mkdir(f'{log_path}/models')
     # write logs
-    logger = Logger(log_path + '/log.txt')
+    logger = Logger(f'./results/{args.dataset}_{args.split_mode}.txt')
     
     print("dataset:", args.dataset)
     print("split mode:", args.split_mode)
