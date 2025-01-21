@@ -1,7 +1,7 @@
 # DHAG-DTA
 
 This repository contains code for replicating results from the associated paper:
-Cheng Wang, Yang Liu, Shitao Song, Kun Cao, Xiaoyan Liu, Gaurav Sharma, Maozu Guo, "DHAG-DTA: dynamic hierarchical affinity graph model for  drug-target binding affinity prediction"
+Cheng Wang, Yang Liu, Shitao Song, Kun Cao, Xiaoyan Liu, Gaurav Sharma, Maozu Guo, "DHAG-DTA: dynamic hierarchical affinity graph model for  drug-target binding affinity prediction" (DOI: [https://doi.org/10.1109/TCBBIO.2025.3531938](https://doi.org/10.1109/TCBBIO.2025.3531938))
 
 The results shows in "results/*", including results in the Table 2, 3, 4 and 5.
 
@@ -24,7 +24,7 @@ GPU is highly recommended.
 
 ## Run the Program using Code Ocean
 
-We recommend using the Code Ocean version of this program, which can be run using Code Ocean's built-in interface: https://codeocean.com/capsule/6526340/tree
+We recommend using the Code Ocean version of this program, which can be run using Code Ocean's built-in interface: https://codeocean.com/capsule/6526340/tree (DOI: 10.24433/CO.8337276.v1)
 
 See "/environment/Dockerfile" for installation details.
 
