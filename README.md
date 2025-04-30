@@ -1,9 +1,17 @@
 # DHAG-DTA
 
 This repository contains code for replicating results from the associated paper:
-Cheng Wang, Yang Liu, Shitao Song, Kun Cao, Xiaoyan Liu, Gaurav Sharma, Maozu Guo, "DHAG-DTA: dynamic hierarchical affinity graph model for  drug-target binding affinity prediction" (DOI: [https://doi.org/10.1109/TCBBIO.2025.3531938](https://doi.org/10.1109/TCBBIO.2025.3531938))
 
-The results shows in "results/*", including results in the Table 2, 3, 4 and 5.
+Cheng Wang, Yang Liu, Kun Cao, Xiaoyan Liu, Shitao Song, Gaurav Sharma and Maozu
+Guo, 
+"DHAG-DTA: Dynamic Hierarchical Affinity Graph Model for Drug-Target Binding Affinity Prediction," in IEEE Transactions on Computational Biology and Bioinformatics, vol. 22, no. 2, pp. 697-709, March-April 2025, doi: 10.1109/TCBBIO.2025.3531938.
+
+<p align="justify">
+<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10847908">[Paper]</a>
+<a href="https://ieeexplore.ieee.org/ielx8/10723156/10953288/10847908/supp1-3531938.pdf?arnumber=10847908">[Supplementary]</a>
+<a href="https://github.com/ChengWang-hit/DHAG-DTA">[GitHub Site]</a>
+<a href="https://codeocean.com/capsule/6526340/tree">[CodeOcean Site]</a>
+</p>
 
 ## Dependencies
 
@@ -49,3 +57,18 @@ checkpoints and data can be downloaded from Code Ocean and are organized as foll
 `data/davis`
 
 `data/kiba`
+
+## Citation
+If you use the code, please cite:
+```BibTex
+@ARTICLE{10847908,
+  author={Wang, Cheng and Liu, Yang and Song, Shitao and Cao, Kun and Liu, Xiaoyan and Sharma, Gaurav and Guo, Maozu},
+  journal={IEEE Transactions on Computational Biology and Bioinformatics}, 
+  title={DHAG-DTA: Dynamic Hierarchical Affinity Graph Model for Drug-Target Binding Affinity Prediction}, 
+  year={2025},
+  volume={22},
+  number={2},
+  pages={697-709},
+  keywords={Drugs;Predictive models;Graph neural networks;Artificial neural networks;Biological system modeling;Proteins;Atoms;Computational modeling;Bioinformatics;Entropy;Drug-target binding affinity prediction;drug discovery;dynamic hierarchical affinity graph;graph neural networks;transductive learning},
+  doi={10.1109/TCBBIO.2025.3531938}}
+```
